@@ -23,7 +23,7 @@ for(let i=0;i<subDirectories.length;i++){
         console.log('module names',module);
         fs.mkdirSync(module);
         let fileName = path.join(module,'content.md');
-        fs.writeFileSync(fileName,'#Hello Everyone');
+        fs.writeFileSync(fileName,'#Hello Everyone ..');
     }
 }
 
